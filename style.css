@@ -1,0 +1,67 @@
+ 
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("assets/images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1600px;
+    background-attachment: fixed;
+  }
+
+.collapsible{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top:180px;
+    background-color: white;
+    width:460px;
+    height:390px;
+    border-radius: 20px;
+    box-shadow: rgba(66, 1, 72, 0.2) -3px 5px 20px;
+    border: none;
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.labelMain{
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.icon-star{
+    margin-right: 10px;
+}
+
+.attribution{
+    position: fixed;
+    bottom:0;
+    left: 0;
+}
+.question{
+    cursor: pointer;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    font-weight: 800;
+    transition: 200ms;
+
+}
+.question:hover{
+    color: rgb(180, 43, 226);
+}
+.answer{
+    font-size: 15px;
+    color: rgba(88, 23, 109, 0.6) ;
+    height: 0;
+    padding: 0 15px 0 15px;
+    overflow: hidden;
+}
+.content .questionAndAnswer.active .answer{
+    height:fit-content;
+}
+.fa{
+    position: absolute;
+    right: 25px;
+}
